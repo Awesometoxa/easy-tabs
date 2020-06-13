@@ -1,0 +1,32 @@
+.tabs {
+	margin: 0 auto;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tab-item {
+	width: 80%;
+	text-align: center;
+	height: 5vh;
+	border: 1px solid black;
+	margin: 0 10px;
+}
+.tab-item:hover {
+	cursor: pointer;
+}
+
+.active-tab-class {
+	background-color: black;
+	color: white;
+}
+
+.tab-content {
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 5px;
+	width: 50%;
+	height: 50vh;
+	border: 1px solid black;
+}
